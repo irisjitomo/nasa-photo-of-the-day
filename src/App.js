@@ -18,18 +18,18 @@ const Footer = styled.footer`
 
 const Icons = styled.div`padding: 25px;`;
 
-const headerButtons = styled.div`padding: 25px;`;
+const HeaderButtons = styled.div`padding: 25px;`;
 
 function App() {
 	return (
 		<div className="App">
 			<Header>
-				<headerButtons>
+				<HeaderButtons>
 					<Button primary>Sign-Up</Button>
 					<Button secondary>Login</Button>
-				</headerButtons>
+				</HeaderButtons>
 			</Header>
-      
+
 			<NasaParentData />
 
 			<Footer>
